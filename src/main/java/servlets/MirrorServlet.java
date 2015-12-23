@@ -14,7 +14,7 @@ public class MirrorServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response) throws ServletException, IOException {
 
-        response.getWriter().println();
+        response.getWriter().println("hello");
     }
 
 
